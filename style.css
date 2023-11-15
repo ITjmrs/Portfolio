@@ -4,6 +4,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
  
+.jmrs{
+    width: 300px;
+    height: 45%;
+}
 .hero{
     position: relative;
     width: auto;
@@ -41,7 +45,7 @@ nav ul li a{
 .detel h1{
     font-size: 45px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
  
 }
  
@@ -63,26 +67,77 @@ nav ul li a{
     bottom: 50%;
     right: 100px;
 }
-
+ 
 .aaron{
     color: darkgray;
     margin: 15%;
 }
-
+ 
 .work1{
     width: 300px;
     height: auto;
 }
-
+ 
 .richard{
    color: white;
    font-weight: bold;
 }
 .work2{
     width: 300px;
-    height: auto; 
+    height: auto;
+}
+ 
+.jerico{
+    color:darkgray;
+}
+ 
+.work3{
+    width: 200px;
+    height: auto;
+}
+ 
+.work4{
+    width: 150px;
+    height: auto;
+}
+ 
+.work5{
+    width: 180px;
+    height: 10%;
+}
+ 
+.work3{
+    border-radius: 32px;
+background: #e0e0e0;
+box-shadow:  10px 10px 27px #b5b5b5,
+             -10px -10px 27px #ffffff;
+}
+ 
+.work4{
+    border-radius: 32px;
+background: #e0e0e0;
+box-shadow:  10px 10px 27px #b5b5b5,
+             -10px -10px 27px #ffffff;
+}
+ 
+.work5{
+    border-radius: 32px;
+background: #e0e0e0;
+box-shadow:  10px 10px 27px #b5b5b5,
+             -10px -10px 27px #ffffff;
+}
+ 
+.jmrs{
+    border-radius: 32px;
+    background: #e0e0e0;
+    box-shadow:  10px 10px 27px #b5b5b5,
+                 -10px -10px 27px #ffffff;
+}
+ 
+.skills{
+    color:darkgray;
 }
 
-.jerico{
-    color: aliceblue;
+.skills1{
+    color:white;
 }
