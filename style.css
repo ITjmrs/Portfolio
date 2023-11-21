@@ -14,6 +14,12 @@ body{
     
 }
 
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 .jmrs{
     border-radius: 32px;
     background: #e0e0e0;
@@ -29,8 +35,7 @@ body{
 }
  
 .detel{
-    margin-left: 5px;
-    margin-top: 50px;
+    margin-right: 4%;
 }
  
 .detel h1{
@@ -196,7 +201,7 @@ footer{
 }
 
 .footerBottom p{
-    color: white;
+    color: gray;
 }
 
 .designer{
@@ -218,6 +223,7 @@ footer{
 
     }
 }
+
 .logo{
     width:95px;
 }
