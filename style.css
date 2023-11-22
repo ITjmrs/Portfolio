@@ -1,12 +1,10 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
  
-body{
-   background-color: black;
-}
+
 
 .jmrs{
     width: 250px;
@@ -35,21 +33,14 @@ nav ul li a{
 }
 
 .hero{
-    position: relative;
-    width: 100%;
-    height:100%;
+
     background: black;
 }
  
-.detel{
-    margin-right: 4%;
-}
  
 .detel h1{
     font-size: 45px;
     color: white;
-    margin-bottom: none;
- 
 }
  
 .detel a{
@@ -59,13 +50,12 @@ nav ul li a{
     font-weight: bold;
     color: black;
     display: inline-block;
-    margin: 4px;
     border-radius: 5px;  
 }
  
 .aaron{
     color: darkgray;
-    margin: 15%;
+
 }
  
 .work1{
@@ -131,13 +121,6 @@ box-shadow:  10px 10px 27px #b5b5b5,
 .skills1{
     color:white;
     padding-top: 20%;
-
-}
-
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
 }
 
 footer{
@@ -157,7 +140,6 @@ footer{
      text-decoration: none;
      padding: 10px;
     background-color: black;
-    margin: 10px;
     border-radius: 50%;
 }
 
@@ -201,9 +183,9 @@ footer{
     opacity: 1;
 }
 
+
 .footerBottom{
     background-color: black;
-    padding: 20px;
     text-align: center;
 }
 
@@ -215,8 +197,6 @@ footer{
     opacity: 0.7;
     letter-spacing: 1px;
     font-weight: 400;
-    margin: 0px 5px;
-
 }
 
 @media (max-width: 700px){
@@ -231,6 +211,8 @@ footer{
     }
 }
 
+
+
 .logo{
     width:95px;
 }
@@ -239,22 +221,30 @@ footer{
     .herosection{
         width: 100%;
         text-align: center;
-        margin: 10px;
-
     }
 }
 
 @media (max-width: 700px){
-    .jmrs{
-        width: 250px;
-        text-align: center;
-        margin-left: 30%;
+
+    .detel{
+        padding-bottom: 10rem;
+    }
+    
+}
+
+
+
+@media (min-width:1024px) {
+    .home1{
+        padding-top: 8rem;
+    }
+    #service .row{
+        margin-left: 3rem;
     }
 }
 
-@media (max-width: 250px){
-    .jmrs1{
-        text-align: center;
-        margin-right: 60%;
+@media (max-width:768px) {
+    #portfolio{
+        padding-left: 2.5rem;
     }
 }
