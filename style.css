@@ -201,7 +201,7 @@ footer{
 }
 
 .footerBottom p{
-    color: gray;
+    color: white;
 }
 
 .designer{
@@ -226,4 +226,21 @@ footer{
 
 .logo{
     width:95px;
+}
+
+@media (max-width: 700px){
+    .herosection{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+
+    }
+}
+
+@media (max-width: 700px){
+    .jmrs{
+        width: 60%;
+        text-align: center;
+        margin: 10px;
+    }
 }
